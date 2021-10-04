@@ -26,12 +26,11 @@ const Services = () => {
                {services.map(service => <div
 
                   key={service.id}
-
                   className="col-md-6">
                   <div className="cart d-flex justify-content-center align-items-center flex-row w-100 ">
                      <div>
                         <div className="w-100">
-                           <img className="mb-4" src={service.picture} alt="" />
+                           <img className="" src={service.picture} alt="" />
                         </div>
                         <div className="w-100 ">
                            <div className="w-100">

@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import './App.css';
+import About from './Components/About/About';
+// import About from './Components/About/About';
 
 import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
@@ -13,12 +15,16 @@ function App() {
     <div className="App">
 
       <Router>
+
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/aboutUs">
+            <About></About>
           </Route>
 
 
