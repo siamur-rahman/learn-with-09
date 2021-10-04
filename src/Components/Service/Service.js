@@ -14,7 +14,6 @@ const Service = () => {
          .then((res) => res.json())
          .then((data) => setServices(data.slice(0, 4)))
    }, []);
-   console.log(services.slice(0, 4));
 
    return (
       <div className="service-container">
