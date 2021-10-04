@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 // import { Link } from 'react-router-dom';
 
@@ -18,7 +19,7 @@ const Services = () => {
 
    return (
       <div className="service-container">
-
+         <Header></Header>
          <h1><b>Our Courses</b></h1>
          <div className="services">
             <div className="row">
@@ -46,6 +47,7 @@ const Services = () => {
                </div>)}
             </div>
          </div>
+         <Footer></Footer>
       </div>
 
    );

@@ -8,9 +8,6 @@ import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
 
 
-
-
-
 function App() {
   return (
     <div className="App">

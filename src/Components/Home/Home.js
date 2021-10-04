@@ -10,7 +10,7 @@ const Home = () => {
          <Header></Header>
          <Service></Service>
          <Footer></Footer>
-
+         npm start
       </div>
    );
 };

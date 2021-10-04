@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Home from '../Home/Home';
+
 // import { Link } from 'react-router-dom';
 // import Footer from '../Footer/Footer';
 // import Header from '../Header/Header';
@@ -19,7 +19,7 @@ const Service = () => {
 
    return (
       <div className="service-container">
-         <Home></Home>
+
          <h1><b>Our Courses</b></h1>
          <div className="services">
             <div className="row">
