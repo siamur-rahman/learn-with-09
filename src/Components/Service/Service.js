@@ -34,7 +34,7 @@ const Service = () => {
                         <div className="w-100 ">
                            <div className="w-100">
                               <h3>{service.name}</h3>
-                              <p>Price: $ {service.price}</p>
+                              <p><b>Price: $ {service.price}</b></p>
                               <button className="btn btn-success">Details</button>
                            </div>
                         </div>

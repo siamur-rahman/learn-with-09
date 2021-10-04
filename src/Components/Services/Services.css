@@ -2,6 +2,13 @@
  
   background-color: rgba(0, 0, 0, 0.582);
 }
+.course{
+  color: white;
+  
+}
+.course:hover{
+  color: black;
+}
 
 .cart {
   padding: 10px;
@@ -11,6 +18,7 @@
   margin-top: 10px;
   box-shadow: 0px 2px 1px 1px rgba(17, 10, 10, 0.397);
   background-color: rgba(0, 0, 0, 0.336);
+  color: white;
 }
 .cart:hover{
   background-color: rgba(38, 99, 85, 0.445);

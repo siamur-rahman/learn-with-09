@@ -15,12 +15,12 @@ const Services = () => {
          .then((res) => res.json())
          .then((data) => setServices(data))
    }, []);
-   console.log(services.slice(0, 4));
+
 
    return (
       <div className="service-container">
          <Header></Header>
-         <h1><b>Our Courses</b></h1>
+         <h1><span className="course">Our Courses</span></h1>
          <div className="services">
             <div className="row">
                {services.map(service => <div
@@ -35,7 +35,7 @@ const Services = () => {
                         <div className="w-100 ">
                            <div className="w-100">
                               <h3>{service.name}</h3>
-                              <p>Price: $ {service.price}</p>
+                              <p><b>Price: $ {service.price}</b></p>
                               <button className="btn btn-success">Details</button>
                            </div>
                         </div>
