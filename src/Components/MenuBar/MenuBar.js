@@ -1,7 +1,8 @@
 
+import { Link } from "react-router-dom";
 import "./MenuBar.css";
 
-// import { Link as a } from "react-router-dom";
+
 
 
 const MenuBar = () => {
@@ -18,18 +19,18 @@ const MenuBar = () => {
                <div className="col-md-10">
                   <div className="menu-container ">
                      <ul className="d-flex align-items-start justify-content-start">
-                        <a href="/home" className="items">
+                        <Link to="/home" className="items">
                            <li>Home</li>
-                        </a>
-                        <a href="/services" className="items">
+                        </Link>
+                        <Link to="/services" className="items">
                            <li>Services</li>
-                        </a>
-                        <a href="/students" className="items">
+                        </Link>
+                        <Link to="/students" className="items">
                            <li>For Students</li>
-                        </a>
-                        <a href="aboutUs" className="items">
+                        </Link>
+                        <Link to="aboutUs" className="items">
                            <li>About us</li>
-                        </a>
+                        </Link>
                      </ul>
                   </div>
                </div>

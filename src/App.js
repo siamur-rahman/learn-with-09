@@ -4,7 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import './App.css';
 import About from './Components/About/About';
-// import About from './Components/About/About';
+import Error from './Components/Error/Error';
+
 
 import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
@@ -23,19 +24,22 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/aboutUs">
-            <About></About>
-          </Route>
-
-
           <Route path="/services">
             <Services></Services>
           </Route>
+          <Route path="/aboutUs">
+            <About></About>
+          </Route>
+          <Route path="/students">
+            <About></About>
+          </Route>
+
+          <Route path="*">
+            <Error></Error>
+          </Route>
         </Switch>
       </Router>
-
-
-    </div>
+    </div >
   );
 }
 
