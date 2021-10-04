@@ -11,6 +11,7 @@ import Home from './Components/Home/Home';
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
 
       <Header></Header>
       <Home></Home>
+
       <Footer></Footer>
 
 
