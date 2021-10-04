@@ -17,7 +17,7 @@ const MenuBar = () => {
                </div>
                <div className="col-md-10">
                   <div className="menu-container ">
-                     <ul className="d-flex align-items-end justify-content-end">
+                     <ul className="d-flex align-items-start justify-content-start">
                         <a href="/home" className="items">
                            <li>Home</li>
                         </a>

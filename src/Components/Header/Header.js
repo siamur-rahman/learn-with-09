@@ -5,10 +5,10 @@ import "./Header.css";
 const Header = () => {
    return (
       <div className="header-container ">
-         <div className="">
+         <div>
             <div className="row d-flex header align-items-center justify-content-center">
                <MenuBar></MenuBar>
-               <div className="col-md-6">
+               <div className="col-md-8">
                   <h1 className="title">
                      Learn With <br /> <span className="name">LEARN BD</span>
                   </h1>
