@@ -1,0 +1,74 @@
+[
+   {
+      "id": "1",
+      "picture": "images/img-1.jpg",
+      "name": "Spoken English",
+      "price": 450
+   },
+   {
+      "id": "2",
+      "picture": "images/img-2.jpg",
+      "name": "Grammar crush course",
+      "price": 550
+   },
+   {
+      "id": "3",
+      "picture": "images/img-3.png",
+      "name": "Kids English",
+      "price": 350
+   },
+   {
+      "id": "4",
+      "picture": "images/img-4.jpg",
+      "name": "Programming For kids",
+      "price": 400
+   },
+   {
+      "id": "5",
+      "picture": "images/img-5.jpg",
+      "name": "Web Design",
+      "price": 650
+   },
+   {
+      "id": "6",
+      "picture": "images/img-6.jpg",
+      "name": "Freelancing",
+      "price": 650
+   },
+   {
+      "id": "7",
+      "picture": "images/img-7.jpg",
+      "name": "wedding photography",
+      "price": 450
+   },
+   {
+      "id": "8",
+      "picture": "images/img-8.png",
+      "name": "E-mail writting",
+      "price": 450
+   },
+   {
+      "id": "9",
+      "picture": "images/img-9.jpg",
+      "name": "Career guidline",
+      "price": 450
+   },
+   {
+      "id": "10",
+      "picture": "images/img-10.jpg",
+      "name": "Leadership excellence",
+      "price": 450
+   },
+   {
+      "id": "11",
+      "picture": "images/img-11.png",
+      "name": "Microsoft exel",
+      "price": 450
+   },
+   {
+      "id": "12",
+      "picture": "img-12.png",
+      "name": "Facebook marketing",
+      "price": 450
+   }
+]
