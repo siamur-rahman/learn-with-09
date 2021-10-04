@@ -9,6 +9,7 @@ import Error from './Components/Error/Error';
 
 import Home from './Components/Home/Home';
 import Services from './Components/Services/Services';
+import Students from './Components/Students/Students';
 
 
 function App() {
@@ -16,7 +17,6 @@ function App() {
     <div className="App">
 
       <Router>
-
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -30,10 +30,10 @@ function App() {
           <Route path="/aboutUs">
             <About></About>
           </Route>
-          <Route path="/students">
-            <About></About>
-          </Route>
 
+          <Route path="/students">
+            <Students></Students>
+          </Route>
           <Route path="*">
             <Error></Error>
           </Route>
