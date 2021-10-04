@@ -1,24 +1,25 @@
 import React, { useEffect, useState } from 'react';
-
-
+import Home from '../Home/Home';
 // import { Link } from 'react-router-dom';
+// import Footer from '../Footer/Footer';
+// import Header from '../Header/Header';
 
-import './Services.css';
+import './Service.css';
 
-const Services = () => {
+const Service = () => {
    const [services, setServices] = useState([]);
 
    useEffect(() => {
 
       fetch('services.json')
          .then((res) => res.json())
-         .then((data) => setServices(data))
+         .then((data) => setServices(data.slice(0, 4)))
    }, []);
    console.log(services.slice(0, 4));
 
    return (
       <div className="service-container">
-
+         <Home></Home>
          <h1><b>Our Courses</b></h1>
          <div className="services">
             <div className="row">
@@ -46,9 +47,10 @@ const Services = () => {
                </div>)}
             </div>
          </div>
+
       </div>
 
    );
 };
 
-export default Services;
+export default Service;

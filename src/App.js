@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import './App.css';
 
 import Home from './Components/Home/Home';
+import Services from './Components/Services/Services';
 
 
 
@@ -23,6 +24,10 @@ function App() {
             <Home></Home>
           </Route>
 
+
+          <Route path="/services">
+            <Services></Services>
+          </Route>
         </Switch>
       </Router>
 

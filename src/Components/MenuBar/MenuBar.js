@@ -21,13 +21,13 @@ const MenuBar = () => {
                         <a href="/home" className="items">
                            <li>Home</li>
                         </a>
-                        <a href="/sports" className="items">
+                        <a href="/services" className="items">
                            <li>Services</li>
                         </a>
-                        <a href="/about" className="items">
+                        <a href="/students" className="items">
                            <li>For Students</li>
                         </a>
-                        <a href="contact" className="items">
+                        <a href="aboutUs" className="items">
                            <li>About us</li>
                         </a>
                      </ul>

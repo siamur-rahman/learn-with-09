@@ -1,14 +1,16 @@
 import React from 'react';
-import Services from '../Services/Services';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import Service from '../Service/Service';
+
 
 const Home = () => {
    return (
       <div>
          <Header></Header>
-         <Services></Services>
+         <Service></Service>
          <Footer></Footer>
+
       </div>
    );
 };
